@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote name="github"
+		fetch=".." />
+	<default revision="master"
+		remote="github"
+		sync-c="true"
+		sync-j="4" />
+
+	<project path="build" name="chenkaie/DotFiles" >
+		<copyfile src="deploy-links" dest="deploy-links" />
+	</project>
+
+	<project path="DotFiles" name="chenkaie/DotFiles" />
+	<project path="Tools" name="chenkaie/Tools" />
+
+	<project path="external/rcfiles" name="chenkaie/rcfiles" />
+
+</manifest>
+
