@@ -8,8 +8,8 @@
 		sync-c="true"
 		sync-j="4" />
 
-	<project path="build" name="chenkaie/DotFiles" >
-		<copyfile src="deploy-links" dest="deploy-links" />
+	<project path="build" name="chenkaie/manifest-build" >
+		<copyfile src="Makefile" dest="Makefile" />
 	</project>
 
 	<project path="DotFiles" name="chenkaie/DotFiles" />
